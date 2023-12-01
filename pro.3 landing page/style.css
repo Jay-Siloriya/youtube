@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* background-color:red; */
+    display: flex;
+}
+.left{
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.lnav{
+    padding: 20px 30px;
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 100%; */
+
+}
+.lnav a{
+    gap: 12px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+}
+
+.right{
+    width: 60%;
+    height: 100%;
+    background-color:white;
+}
+.rtop{
+    width: 100%;
+    height: 50%;
+    /* background-color:pink; */
+    display: flex;
+}
+.rtopleft{
+    width: 55%;
+    height: 100%;
+    background-color: pink;
+}
+.rtopright{
+    width: 50%;
+    height: 100%;
+    background-color:yellow;
+}
+.rbottom{
+    width: 100%;
+    height: 50%;
+    background-color:green;
+}
+
+.icon{
+    /* padding: 40px; */
+    /* margin: 50px; */
+    font-size: 40px;
+    font-weight: 550;
+    position: absolute;
+    top: 90%;
+    left: 20px;
+}
+span.one:hover{
+    color: aqua;
+}
+span.tow:hover{
+    color: aqua;
+}
+span.three:hover{
+    color: aqua;
+}
+span.four:hover{ 
+    color: aqua;
+}
+span.five:hover{
+    color: aqua;
+}
+span.six:hover{
+    color: aqua;
+}
+
+img{ 
+    padding: 0;
+    margin: 0;
+}
+.logo{
+ position: absolute;
+ top: 35%;
+ left: 10%;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
