@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url(altinay-dinc-LluELtL5mK4-unsplash.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* font-size: large;
+    font-weight: 600; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 131, 131, 0.7);
+   
+    
+}
+.title{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600 ;
+    color: aliceblue;
+}
+.title:hover{
+    color: black;
+}
+.col{
+    display: flex;
+    margin: 10px auto;
+    width: 1000px;
+    height: 100px;
+    border: 1px solid red;
+    border-color: transparent;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.col div{
+    width: 160px;
+    text-align: center;
+}
+.col:hover{
+    color: black;
+}
+input{
+     height: 60%;
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: transparent;
+    border-radius: 10px;
+}
+/* span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: aliceblue;
+} */
+/* span:hover{
+     color: rgba(214, 0, 0, 0.432);
+}
+ */
+
+
+
+
+
+
